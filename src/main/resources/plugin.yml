@@ -1,0 +1,12 @@
+name: EssentialsTPClickAccept
+version: ${project.version}
+main: indi.goldenwater.essentialstpclickaccept.EssentialsTPClickAccept
+depend: [ Essentials ]
+authors: [ Golden_Water ]
+description: A plugin allow you accept other player's Essentials teleport request by a click.
+commands:
+  essentialstpclickaccept:
+    description: Plugin main command.
+    aliases: [etca]
+    usage: /essentialstpclickaccept help
+
