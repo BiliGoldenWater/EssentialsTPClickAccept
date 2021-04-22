@@ -7,6 +7,34 @@ description: A plugin allow you accept other player's Essentials teleport reques
 commands:
   essentialstpclickaccept:
     description: Plugin main command.
-    aliases: [etca]
+    aliases: [ etca ]
     usage: /essentialstpclickaccept help
+permissions:
+  essentialstpclickaccept.*:
+    default: op
+    description: All permissions of the plugin.
+    children:
+      essentialstpclickaccept.showcam:
+        default: true
+        description: Show click accept message to player have this permission.
+      essentialstpclickaccept.command.*:
+        default: op
+        description: All command permission.
+        children:
+          essentialstpclickaccept.command.essentialstpclickaccept:
+            default: true
+            description: Plugin main command.
+          essentialstpclickaccept.command.help:
+            default: true
+            description: Show help message.
+          essentialstpclickaccept.command.resetlang:
+            default: op
+            description: Reset language files.
+          essentialstpclickaccept.command.lang:
+            default: op
+            description: Change plugin language.
+          essentialstpclickaccept.command.reload:
+            default: op
+            description: Reload config.
+
 

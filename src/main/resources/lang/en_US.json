@@ -1,3 +1,13 @@
 {
-
+  "error_noPerm": "§cYou don't have permission.",
+  "help_usage_help": "Usage: /etca help (Show this message.)",
+  "help_usage_lang": "Usage: /etca lang <targetLanguage> (Change plugin language.)",
+  "help_usage_resetLang": "Usage: /etca resetLang (Reset all language files.)",
+  "help_usage_reload": "Usage: /etca reload (Reload config.)",
+  "cmd_reload_success": "Config and Languages are reloaded.",
+  "cmd_lang_list": "All available languages: \n    {{languages}}",
+  "cmd_lang_successSet": "Success set language to: {{language}}",
+  "cmd_lang_setFail": "Fail to set language to {{language}}:",
+  "cmd_lang_setFail_doesNotExist": "Language doesn't exist.",
+  "cmd_resetLang_resetFinish": "Success reset all language files."
 }
