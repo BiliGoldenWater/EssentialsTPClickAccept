@@ -14,6 +14,7 @@ public final class EssentialsTPClickAccept extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         instance = this;
+        saveDefaultConfig();
 
         i18n = new I18nManager(getDataFolder(), "lang", "en_US");
         i18n.releaseDefaultLangFile(this, "lang", "langList.json", false);
@@ -27,6 +28,7 @@ public final class EssentialsTPClickAccept extends JavaPlugin {
     @Override
     public void onDisable() {
         // Plugin shutdown logic
+        saveConfig();
         getLogger().info("Disabled.");
     }
 
