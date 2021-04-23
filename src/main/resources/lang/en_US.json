@@ -9,5 +9,8 @@
   "cmd_lang_successSet": "Success set language to: {{language}}",
   "cmd_lang_setFail": "Fail to set language to {{language}}:",
   "cmd_lang_setFail_doesNotExist": "Language doesn't exist.",
-  "cmd_resetLang_resetFinish": "Success reset all language files."
+  "cmd_resetLang_resetFinish": "Success reset all language files.",
+  "event_tpRequest_target": "{'extra':[{'clickEvent':{'action':'run_command','value':'/tpaccept'},'text':'§a§nAccept§r'},{'text':'§7 | §r'},{'clickEvent':{'action':'run_command','value':'/tpdeny'},'text':'§c§nDeny§r'}],'text':''}",
+  "event_tpRequest_target_tpHere": "{'extra':[{'clickEvent':{'action':'run_command','value':'/tpaccept'},'text':'§a§nAccept§r'},{'text':'§7 | §r'},{'clickEvent':{'action':'run_command','value':'/tpdeny'},'text':'§c§nDeny§r'}],'text':''}",
+  "event_tpRequest_requester": "{'extra':[{'clickEvent':{'action':'run_command','value':'/tpacancel'},'text':'§c§nCancel§r'}],'text':''}"
 }

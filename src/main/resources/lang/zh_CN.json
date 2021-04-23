@@ -9,5 +9,8 @@
   "cmd_lang_successSet": "成功将语言设置为: {{language}}",
   "cmd_lang_setFail": "尝试将语言设置为 {{language}} 失败:",
   "cmd_lang_setFail_doesNotExist": "语言不存在.",
-  "cmd_resetLang_resetFinish": "成功重置了所有语言文件."
+  "cmd_resetLang_resetFinish": "成功重置了所有语言文件.",
+  "event_tpRequest_target": "{'extra':[{'clickEvent':{'action':'run_command','value':'/tpaccept'},'text':'§a§n接受§r'},{'text':'§7 | §r'},{'clickEvent':{'action':'run_command','value':'/tpdeny'},'text':'§c§n拒绝§r'}],'text':''}",
+  "event_tpRequest_target_tpHere": "{'extra':[{'clickEvent':{'action':'run_command','value':'/tpaccept'},'text':'§a§n接受§r'},{'text':'§7 | §r'},{'clickEvent':{'action':'run_command','value':'/tpdeny'},'text':'§c§n拒绝§r'}],'text':''}",
+  "event_tpRequest_requester": "{'extra':[{'clickEvent':{'action':'run_command','value':'/tpacancel'},'text':'§c§n取消§r'}],'text':''}"
 }
