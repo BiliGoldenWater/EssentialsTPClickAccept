@@ -73,7 +73,9 @@ public class CommandHandlerManager {
     }
 
     public List<String> getSubcommands() {
-        return subcommands;
+        List<String> result = new ArrayList<>(subcommands);
+        result.remove(mainCommandReplacer);
+        return result;
     }
 
     public interface CommandHandler {

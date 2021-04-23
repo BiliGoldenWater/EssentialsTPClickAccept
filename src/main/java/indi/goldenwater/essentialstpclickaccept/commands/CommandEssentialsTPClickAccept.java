@@ -80,6 +80,11 @@ public class CommandEssentialsTPClickAccept {
             sender.sendMessage(i18n.getL10n(lang, "cmd_reload_success"));
             return true;
         });
+
+        TabCommandEssentialsTPClickAccept.register("essentialstpclickaccept",
+                plugin,
+                handlerManager,
+                permHead);
     }
 
     public static void update() {
