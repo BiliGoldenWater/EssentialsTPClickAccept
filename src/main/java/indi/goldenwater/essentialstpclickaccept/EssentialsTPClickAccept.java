@@ -6,8 +6,6 @@ import indi.goldenwater.essentialstpclickaccept.utils.I18nManager;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import java.util.Arrays;
-
 public final class EssentialsTPClickAccept extends JavaPlugin {
     private static EssentialsTPClickAccept instance;
     private I18nManager i18n;
@@ -23,7 +21,6 @@ public final class EssentialsTPClickAccept extends JavaPlugin {
         Bukkit.getPluginManager().registerEvents(new OnTPARequest(), this);
         CommandEssentialsTPClickAccept.register("essentialstpclickaccept", this);
 
-        getLogger().info(Arrays.toString("aa".split("[|]")));
         getLogger().info("Enabled.");
     }
 
